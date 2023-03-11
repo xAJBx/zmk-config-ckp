@@ -9,3 +9,9 @@ manifest:
       import: app/west.yml
   self:
     path: config
+encoders:
+    - name: encoder1
+      pin_a: 12
+      pin_b: 13
+      action: cursor_move
+      cursor_move_steps: 1
